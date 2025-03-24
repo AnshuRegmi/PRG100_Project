@@ -23,7 +23,7 @@ app.get('/historical-data', (req, res) => {
   res.json({
     stock: 'NABIL',
     data: [
-      { date: '2024-03-18', price: 880 },
+      { date: '2024-03-18', price: 200 },
       { date: '2024-03-19', price: 885 },
       { date: '2024-03-20', price: 890 },
       { date: '2024-03-21', price: 895 },
